@@ -25,3 +25,4 @@ contents:
     title: Analysis of LIGO Data
 exclude:
   - "hw03_description.md"
+  - ".ipynb_checkpoints/*"
