@@ -1,0 +1,24 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: dcc403be-b88a-44d7-877a-edc9a9a6c1b4
+  title: Analysis of LIGO Data
+  description: This site displays notebooks from a repository for homework 3 of STAT 159. This project analyzes data from LIGO and makes installable packages.
+  # keywords: []
+  authors: [Aniket Kamat,Ligo Scientific Collaboration (LSC)]
+  github: https://github.com/UCB-stat-159-f25/hw3-aniketkamat
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+site:
+  template: book-theme
+  title: Analysis of LIGO Data
+  actions:
+      - title: Binder launch 
+        url: https://mybinder.org/v2/gh/UCB-stat-159-f25/hw3-aniketkamat/HEAD?urlpath=%2Fdoc%2Ftree%2FLOSC_Event_tutorial.ipynb
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
+contents:
+  - file: README.md
+    title: Home
+  - file: LOSC_Event_tutorial.ipynb
+    title: Analysis of LIGO Data
