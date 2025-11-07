@@ -23,3 +23,5 @@ contents:
     title: Home
   - file: LOSC_Event_tutorial.ipynb
     title: Analysis of LIGO Data
+exclude:
+  - hw03_description.md
