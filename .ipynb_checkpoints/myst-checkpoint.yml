@@ -11,6 +11,7 @@ project:
 site:
   template: book-theme
   title: Analysis of LIGO Data
+  nav_mode: file
   actions:
       - title: Binder launch 
         url: https://mybinder.org/v2/gh/UCB-stat-159-f25/hw3-aniketkamat/HEAD?urlpath=%2Fdoc%2Ftree%2FLOSC_Event_tutorial.ipynb
